@@ -314,21 +314,32 @@ ul {
   background-color: var(--background-hero);
 }
 
+address{
+  all: initial;
+}
+
+
 .second {
   display: inline-block;
 
   margin-bottom: 20px;
 }
+.footer-adress{ 
+  font-family: var(--mainfont);}
 
-.footer-adress {
-  padding-left: 0;
+
+
+.footer-adress>li{
+  margin-bottom: 9px;
+}
+.footer-adress>li:last-child{
+  margin-bottom: 0;
 }
 
 .footer-adress-str {
   display: inline-block;
-  margin-bottom: 9px;
 
-  font-style: normal;
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -343,20 +354,19 @@ ul {
 }
 
 .footer-mail {
+  display: inline-block;
+  
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+
+
 }
-.footer-mail {
-  margin-bottom: 9px;
-  display: inline-block;
-}
-.footer-mail[href^="tel:+380991111111"] {
-  margin-bottom: 0;
-}
+
+
 
 .footer-mail:hover,
 .footer-mail:focus {
@@ -382,6 +392,9 @@ ul {
 .portfolio-title {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  
 
   background: #ffffff;
   border-left: 1px solid #eeeeee;
@@ -390,7 +403,6 @@ ul {
 }
 .portfolio-title h3 {
   margin-bottom: 4px;
-  margin-left: 24px;
 
   font-family: var(--mainfont);
   font-weight: 700;
@@ -400,8 +412,6 @@ ul {
   color: var(--text-color);
 }
 .portfolio-title p {
-  margin-left: 24px;
-
   font-family: var(--mainfont);
   font-weight: 400;
   font-size: 16px;
@@ -422,12 +432,12 @@ ul {
   justify-content: center;
   gap: 8px;
   margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .portfolio-button {
   padding: 6px 22px;
   margin-top: 0;
-  margin-bottom: 50px;
   border-radius: 4px;
 
   font-family: "Roboto";
