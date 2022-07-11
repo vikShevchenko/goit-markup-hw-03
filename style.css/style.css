@@ -324,6 +324,7 @@ address{
 
   margin-bottom: 20px;
 }
+
 .footer-adress{ 
   font-family: var(--mainfont);}
 
@@ -331,15 +332,17 @@ address{
 
 .footer-adress>li{
   margin-bottom: 9px;
+
 }
+
 .footer-adress>li:last-child{
   margin-bottom: 0;
+
 }
 
 .footer-adress-str {
   display: inline-block;
 
-  
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -363,10 +366,7 @@ address{
 
   color: rgba(255, 255, 255, 0.6);
 
-
 }
-
-
 
 .footer-mail:hover,
 .footer-mail:focus {
