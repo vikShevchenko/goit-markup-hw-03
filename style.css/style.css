@@ -315,7 +315,7 @@ ul {
 }
 
 address{
-  all: initial;
+  font-style: normal;
 }
 
 
@@ -324,10 +324,6 @@ address{
 
   margin-bottom: 20px;
 }
-
-.footer-adress{ 
-  font-family: var(--mainfont);}
-
 
 
 .footer-adress>li{
@@ -374,7 +370,7 @@ address{
 }
 
 /*------------------------------------------------------------*/
-.section {
+section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
